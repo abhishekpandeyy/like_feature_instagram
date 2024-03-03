@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  button{
+    padding: 10px 15px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+
+  }
+.post-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post-container img {
+    width: 300px;
+    height: 400px;
+}
+
+.like-icon {
+    color: #e74c3c; /* Heart color */
+    font-size: 24px;
+    display: none;
+}
+
+#like-count {
+    font-size: 18px;
+    color: #555;
+    
+}
